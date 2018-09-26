@@ -16,4 +16,3 @@
 一般采用的认证机制是cookie或者token认证，在纯web工程中采用两种方式均是可以的，在Hybrid混合开发中，由于是基于WebView的，也可以使用cookie来实现验证。在安卓WebView和iOS的UIWebView中都可以采用这种方式，但是在iOS的WKWebView中，由于WKWebview的网络请求是系统进程，所以无法监听前端到的ajax，也就是说，不能在ajax中注入cookie。所以最好采用token方式。
 
 还有一个要考虑的是前端和APP端的认证鉴权，之前的项目中是每次进入H5页面后，将该页面的URL作为令牌加入白名单，之后的请求均在APP端做令牌的验证，这部分查到的资料较少，可以再考虑下方案。
-test
