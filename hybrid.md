@@ -18,7 +18,7 @@
     #### ReactNative和weex:
     Facebook和阿里的方案，执行效率是硬伤，首页不能用RN已是共识，而且目前在统一Android和iOS代码方面尚存在不足，还有热更新是否被认可， 有关苹果审核。
     #### Flutter:
-    Google的方案， Flutter采用不同的方法避免由JavaScript桥接器引起的性能问题，即用名为Dart的程序语言来编译。Dart是用预编译的方式编译多个平台的原生代码，这允许Flutter直接与平台通信，而不需要通过执行上下文切换的JavaScript桥接器。，不支持线上热修复，和跨平台方案天然的动态化属性不符，目前尚在preview阶段。
+    Google的方案，使用dart统一代码， Flutter采用不同的方法避免由JavaScript桥接器引起的性能问题。Dart是用预编译的方式编译多个平台的原生代码，这允许Flutter直接与平台通信，而不需要通过执行上下文切换的JavaScript桥接器。不支持线上热修复，和跨平台方案天然的动态化属性不符，目前尚在preview阶段。
     #### PWA:
     Google的方案，用纯web的方式统一三端，很好的idea。但是需要借助Google play Service和浏览器支持，国外大部分Android手机和iOS的新版本都可以支持PWA，但遗憾的是，国内的浏览器没法统一支持PWA。
     #### 微信小程序:
