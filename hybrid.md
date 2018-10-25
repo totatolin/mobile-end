@@ -24,6 +24,7 @@
     #### 微信小程序:
     腾讯的方案，属于微信内的生态闭环，注定没法成为世界统一的方案，更适合小工具和小游戏，一般都作为原生APP的延伸入口。
     
+![image](./hybrid4.gif)
 
 ## H5与Native的通信jsBridge的实现方案
 ### javascriptInterface(安卓)) / javascriptCore(iOS UIWebview) / scriptMessageHandler(iOS8 WKWebView)
